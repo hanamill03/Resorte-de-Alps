@@ -68,7 +68,7 @@ header {
   }
   
   .group img {
-    width: 100%;
+    width: 50%;
     height: auto;
   }
 
@@ -81,7 +81,7 @@ header {
     margin: 0 auto;
   }
 .contact{
-  width:100%;
+  width:70%;
 
 }
 
