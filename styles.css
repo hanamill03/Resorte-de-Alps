@@ -1,8 +1,9 @@
 body {
   background-color: #c4bf9f;
 }
+
 header{
-background: url("swiss-valley.jpg);
+background: url("swiss-valley.jpg")
 }
 
 .logo {
