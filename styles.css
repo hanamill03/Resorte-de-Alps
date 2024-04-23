@@ -33,7 +33,7 @@ header {
 
   h2{
   text-align: center;
-  font-size: 35px; 
+  font-size: 20px; 
   font-family: serif; 
   color: white;
   border:  1px solid #25591f; 
@@ -42,7 +42,7 @@ header {
 
   h3{
     text-align: center;
-  font-size: 35px; 
+  font-size: 20px; 
   font-family: serif; 
   color: white;
   border:  1px solid #122c0f; 
@@ -53,7 +53,7 @@ header {
   text-align: center;
   padding-left: 20px;
   padding-right: 20px;
-  font-size: 30px;
+  font-size: 15px;
   font-family: serif;
   }
 
