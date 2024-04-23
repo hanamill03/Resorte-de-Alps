@@ -7,9 +7,8 @@ background: url("swiss-valley.jpg") no-repeat top center;
 }
 
 header {
-  height: 35px;
+  height: 100%;
   position: relative;
-  top: -4rem;
   font-size: 2rem;
   
 }
