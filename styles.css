@@ -68,6 +68,7 @@ header {
   }
   
   .group img {
+    display: center;
     width: 50%;
     height: auto;
   }
@@ -92,6 +93,7 @@ form{
 
 
 .contact-form-container {
+  display: center;
   border: 1px solid ;
   padding: 20px;
   border-radius: 20px;
