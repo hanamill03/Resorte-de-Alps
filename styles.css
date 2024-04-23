@@ -6,20 +6,15 @@ header{
 background: url("swiss-valley.jpg")
 }
 
-header{
-  height:max-content;
-  text-align: top;
-  font-size: 50px;
-  top: 100px;
-  left: 30%;
-  color: black;
+header {
+  height: 35px;
   position: relative;
+  top: -4rem;
+  font-size: 2rem;
+  
 }
 
-  h1{
-        position: center;
-        font-family: serif;
-    }
+
 
    button {
 			border-radius: 12px;
