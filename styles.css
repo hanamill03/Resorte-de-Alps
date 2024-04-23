@@ -3,7 +3,7 @@ body {
 }
 
 header{
-background: url("swiss-valley.jpg")
+background: url("swiss-valley.jpg") no-repeat top center;
 }
 
 header {
