@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Resorte de Alps</title>
+        <meta name="author" content="Hannah Milleson">
+        <meta name="description" content="Swiss Alps Resort">
+        <!-- FAVICON -->
+        <link rel="icon" type="image/ico" href="C:\Users\hanna\OneDrive\git215\git215\m6\Final\Final\favicon.ico" />
+        <link rel="shortcut icon" href="C:\Users\hanna\OneDrive\git215\git215\m6\Final\Final\favicon.ico" type="image/ico"/>
+        <link rel= "stylesheet" href="styles.css">
+
+    </head>
+
+    <body>
+        <div class="container">
+         
+            <!-- background image -->
+            <img class="gfg" src= "C:\Users\hanna\OneDrive\git215\git215\m6\Final\Final\swiss-valley.jpg"> 
+
+    <header id="top">
+        <div class="logo">
+          <h1>resorte de alps</h1>
+          <a href="index.html">
+            <button>home</button>
+          </a>
+            <button>accommodations</button>
+          <a href="contact.html">
+            <button>contact</button>
+          </a>
+        </div>
+
+
+    </header>
+<main>
+<div class="container">
+<h2>Contact Us</h2>
+
+<p> Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!
+    Required fields marked with a *</p>
+
+    <div class="contact">
+        <img src="swiss-sunset.jpg" alt="Image 1">
+
+        <form action="/submit_contact_form" method="post">
+            <div class="contact-form-columns">
+              <div class="contact-form-column">
+                <label for="full-name">Full Name:</label><br>
+                <input type="text" id="full-name" name="full_name" required><br>
+                
+                <label for="phone-number">Phone Number:</label><br>
+                <input type="tel" id="phone-number" name="phone_number" required><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+              </div>
+              
+              <div class="contact-form-column">
+                <label for="preferred-contact-method">Preferred Contact Method:</label><br>
+                <div class="preferred-contact-method-options">
+                  <input type="radio" id="phone-option" name="preferred_contact_method" value="phone" required>
+                  <label for="phone-option">Phone</label><br>
+                  <input type="radio" id="email-option" name="preferred_contact_method" value="email">
+                  <label for="email-option">Email</label><br>
+                </div>
+                
+                <label for="comment">Comment:</label><br>
+                <textarea id="comment" name="comment"></textarea><br>
+              </div>
+            </div>
+            
+            <input type="submit" value="Submit">
+          </form>
+    </body>
+
+
