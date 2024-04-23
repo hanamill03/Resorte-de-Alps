@@ -9,23 +9,19 @@ background: url("swiss-valley.jpg")
 header{
   height:max-content;
   text-align: center;
-}
-
-.logo {
-  text-align: center;
   position: absolute;
   font-size: 50px;
   top: 100px;
   left: 30%;
   color: black;
-    }
+}
 
   h1{
         position: center;
         font-family: serif;
     }
 
-    .logo button {
+   button {
 			border-radius: 12px;
 			outline: 0;
 			display: inline-block;
